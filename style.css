@@ -1,0 +1,40 @@
+body {
+  font-family: "Frank Ruhl Libre", serif;
+  /* Light 300
+Regular 400
+Medium 500
+Bold 700
+Black 900 */
+}
+h1 {
+  font-weight: 900;
+  font-size: 5rem;
+}
+p {
+  font-weight: 300;
+}
+.titulo {
+  background: rgb(241, 235, 235);
+  text-align: center;
+  padding-top: 5rem;
+}
+.portada {
+  min-height: 100vh;
+  background: white;
+}
+.productos {
+  min-height: 100vh;
+  background: white;
+}
+.bienvenido {
+  min-height: 100vh;
+  background: white;
+}
+.servicios {
+  min-height: 100vh;
+  background: white;
+}
+.contactos {
+  min-height: 100vh;
+  background: white;
+}
