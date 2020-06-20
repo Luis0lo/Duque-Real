@@ -1,3 +1,10 @@
+@import "portada";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Frank Ruhl Libre", serif;
   /* Light 300
@@ -5,23 +12,17 @@ Regular 400
 Medium 500
 Bold 700
 Black 900 */
+  font-size: 62.5%; // 1rem = 10px
 }
 h1 {
-  font-weight: 900;
-  font-size: 5rem;
+  font-weight: lighter;
+  font-size: 6rem;
 }
+
 p {
-  font-weight: 300;
+  font-size: 1.5rem;
 }
-.titulo {
-  background: rgb(241, 235, 235);
-  text-align: center;
-  padding-top: 5rem;
-}
-.portada {
-  min-height: 100vh;
-  background: white;
-}
+
 .productos {
   min-height: 100vh;
   background: white;
