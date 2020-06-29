@@ -1,11 +1,18 @@
 .titulo {
-  text-align: center;
   padding-top: 8rem;
+  width: 80%;
+  margin: auto;
 }
 .portada {
   min-height: 100vh;
-  // background: radial-gradient(#188af0, #00b7d8);
+  color: azure;
+  background: #1f28a3;
 }
+
 ul {
   font-size: 1.1rem;
+}
+.info {
+  width: 80%;
+  margin: auto;
 }

@@ -1,14 +1,22 @@
 .titulo {
-  text-align: center;
   padding-top: 8rem;
+  width: 80%;
+  margin: auto;
 }
 
 .portada {
   min-height: 100vh;
+  color: azure;
+  background: #1f28a3;
 }
 
 ul {
   font-size: 1.1rem;
+}
+
+.info {
+  width: 80%;
+  margin: auto;
 }
 
 * {
@@ -28,9 +36,13 @@ Black 900 */
   font-size: 62.5%;
 }
 
+.navbar {
+  background: #1f28a3;
+}
+
 h1 {
   font-weight: lighter;
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 p {
