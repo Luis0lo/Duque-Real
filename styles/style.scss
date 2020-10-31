@@ -1,21 +1,19 @@
-@import "portada";
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 62.5%; // 1rem = 10px
+  // font-family: "Montserrat", sans-serif;
+  // font-size: 62.5%; // 1rem = 10px
 }
 .navbar {
-  background: #09254d;
+  // background: rgba(41, 128, 185, 1);
 }
 
 h1 {
-  font-weight: 800;
-  font-size: 4rem;
+  // font-weight: 800;
+  font-size: 3rem;
 }
 h6 {
   font-weight: 400;
@@ -23,30 +21,46 @@ h6 {
 p {
   font-size: 1rem;
 }
-
-.titulo-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+ul {
+  font-size: 1.1rem;
 }
+
+// .titulo-container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
 .titulo {
   padding-top: 6rem;
 }
 
-.img-container {
-  display: flex;
-  justify-content: flex-end;
-}
 .img-portada {
   max-height: 500px;
 }
 .portada {
   padding-top: 12rem;
-  min-height: 100vh;
+  min-height: 71vh;
   color: black;
-  background: #white;
+  background: white;
+}
+.bienvenidoPortada {
+  color: white;
+  // background-color: blue;
+  border-radius: 50% 20% / 10% 40%;
+  padding: 10px 30px;
 }
 
+#fondo-portada {
+  height: 30vh;
+  background: url("../styles/img/JAMONES\ CENTRO.jpg") center/cover;
+  // background-size: cover;
+  background-position: botton;
+  background-attachment: fixed;
+  opacity: 1;
+  color: black;
+  padding-top: 50px;
+}
+//////////////////////////////////////////////////////////////PRODUCTOS
 .productos {
   min-height: 100vh;
   background: white;
