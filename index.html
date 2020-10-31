@@ -175,7 +175,7 @@
       
       <div class="col-md-8 mt-2">
 
-        <form action="POST" data-netlify='true'>
+        <form method="POST" data-netlify='true'>
         <div class="card p-3">
           <div class="card-body">
             <h3 class="text-center">
@@ -188,6 +188,7 @@
                   <input
                     type="text"
                     name='name'
+                    id='name'
                     class="form-control"
                     placeholder="Nombre"
                   />
@@ -197,8 +198,9 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <input
-                    type="text"
+                    type="email"
                     name='email'
+                    id='email'
                     class="form-control"
                     placeholder="Email"
                   />
@@ -211,12 +213,14 @@
                   <textarea
                     class="form-control"
                     name='message'
+                    id='message'
                     placeholder="Mensaje"
+                    rows="4"
                   ></textarea>
                 </div>
               </div>
               <div class="field">
-                <div data-netfly-recaptcha='true'>
+                <div data-netlify-recaptcha='true'>
 
                 </div>
 
