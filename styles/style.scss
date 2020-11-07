@@ -65,30 +65,21 @@ ul {
   min-height: 100vh;
   background: white;
 }
-.productos-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  // flex-wrap: wrap; small devices
-}
+
 .box1 {
-  background: rgb(119, 119, 161);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-grow: 1;
-  width: 100px;
+  // background: rgb(119, 119, 161);
 }
 .box2 {
-  width: 100px;
-  background: rgb(187, 133, 133);
-  flex-grow: 2;
+  background: rgba(223, 212, 212, 0.719);
 }
 .box1 img {
   max-height: 100px;
-  width: auto;
-  padding: 5%;
+  // width: auto;
+  padding-top: 3%;
 }
+// .box1 img:hover {
+//   border: 1px solid blue;
+// }
 
 .bienvenido {
   min-height: 100vh;
@@ -101,4 +92,8 @@ ul {
 .contactos {
   min-height: 100vh;
   background: white;
+}
+iframe {
+  // height: 350px;
+  // width: auto;
 }
