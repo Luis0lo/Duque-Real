@@ -61,8 +61,8 @@ onlyForm.addEventListener('submit', function (e) {
         icon: "success",
       });
     //reset input
-    nameInput.value = '';
-    emailInput.value = '';
-    textInput.value = '';
+    // nameInput.value = '';
+    // emailInput.value = '';
+    // textInput.value = '';
 });
 
