@@ -47,22 +47,39 @@ let onlyForm = document.querySelector('#form1')
 
 
 onlyForm.addEventListener('submit', function (e) {
-    // e.preventDefault();console.log('submit');
+    e.preventDefault();
     //grab the input field to be cleared later
-    let nameInput = onlyForm.elements.name;
-    let emailInput = onlyForm.elements.email;
-    let textInput = onlyForm.elements.message;
-    //grab the value to be used in here
-    let nameValue = nameInput.value;
+   
     //sucess message
     swal({
         title: "Recibimos tu mensaje",
-        text: `Te responderemos en breve ${nameValue.toUpperCase()}`,
+        text: `Te responderemos en breve`,
         icon: "success",
       });
-    //reset input
-    // nameInput.value = '';
-    // emailInput.value = '';
-    // textInput.value = '';
+   
 });
+
+// //form 
+// let onlyForm = document.querySelector('#form1')
+
+
+// onlyForm.addEventListener('submit', function (e) {
+//     // e.preventDefault();console.log('submit');
+//     //grab the input field to be cleared later
+//     let nameInput = onlyForm.elements.name;
+//     let emailInput = onlyForm.elements.email;
+//     let textInput = onlyForm.elements.message;
+//     //grab the value to be used in here
+//     let nameValue = nameInput.value;
+//     //sucess message
+//     swal({
+//         title: "Recibimos tu mensaje",
+//         text: `Te responderemos en breve ${nameValue.toUpperCase()}`,
+//         icon: "success",
+//       });
+//     //reset input
+//     nameInput.value = '';
+//     emailInput.value = '';
+//     textInput.value = '';
+// });
 
