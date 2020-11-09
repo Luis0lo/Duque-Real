@@ -200,9 +200,9 @@
       
       <div class="col-md-8 ">
 
-        <form method="POST" action='/index.html' data-netlify='true'>
-        <div class="card px-3">
-          <div class="card-body pb-0">
+        <form method="POST" action='/index.html' data-netlify='true' id="form1">
+        <div class="card card-body pb-0 px-3 h-100">
+          
             <h3 class="text-center">
               Envíenos un mensaje
             </h3>
@@ -216,6 +216,7 @@
                     id='name'
                     class="form-control"
                     placeholder="Nombre"
+                    required
                   />
                 </div>
               </div>
@@ -228,6 +229,7 @@
                     id='email'
                     class="form-control"
                     placeholder="Email"
+                    required
                   />
                 </div>
               </div>
@@ -241,6 +243,7 @@
                     id='message'
                     placeholder="Mensaje"
                     rows="4"
+                    required
                   ></textarea>
                 </div>
               </div>
@@ -261,14 +264,16 @@
                 </div>
               </div>
             </div>
-          </div>
+          
         </div>
       </form>
+      
       </div>
 
-      <div class="col-md-4 d-flex align-items-stretch">
-        <div class="card">
-          <div class="card-body py-2">            
+      <div class="col-md-4 ">
+        <div class="card card-body py-2 h-100 text-center justify-content-center">
+          <!-- text-center d-flex align-items-stretch-->
+                      
             <h4>Direccion</h4>
             <p>Calle México con Av. Washington
               Urb. Pérez Bonalde, Caracas</p>
@@ -276,17 +281,15 @@
             <p>inv.elduquereal@hotmail.com</p>
             <h4>Telefono</h4>
             <p>(0212) 871 1118</p>
-          </div>
+          
         </div>
       </div>
     </div>
+    <h2><span class="nombreSpan"></span></h2>
   </div>
 </section>
 
 <div class="pt-2">
-  
-
-  
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.7234271477291!2d-66.94654527080759!3d10.509037499531471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5f106ce9899f%3A0x1e3bf187c1f9c979!2sEl%20Duque%20Real!5e0!3m2!1sen!2suk!4v1604692978616!5m2!1sen!2suk" 
   width="100%" 
   height="300" 
@@ -295,10 +298,9 @@
   allowfullscreen="true" 
   aria-hidden="false" 
   tabindex="0">
-    </iframe>
-  
-  
+    </iframe> 
 </div>
+
 </section>
 
 <!-- ///////////////////////////////////////////////////FOOTER -->
@@ -329,6 +331,8 @@
         crossorigin="anonymous"></script>
         <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 
   <script src="index.js"></script>
     
