@@ -46,17 +46,18 @@ $("#back-to-top").click(function () {
 let onlyForm = document.querySelector('#form1')
 
 
-onlyForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    //grab the input field to be cleared later
-   
-    //sucess message
-    swal({
+onlyForm.addEventListener('submit', function () {
+    // e.preventDefault();
+   setTimeout(function (){
+      swal({
         title: "Recibimos tu mensaje",
         text: `Te responderemos en breve`,
         icon: "success",
-      });
-   
+      }); 
+   }, 1500)
+    //sucess message
+    
+    
 });
 
 // //form 
