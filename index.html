@@ -20,7 +20,7 @@
     <main>
         <div class="menu" id="menu">
             <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-            <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary" id="main-nav">
+            <nav class="navbar fixed-top navbar-expand-sm navbar-dark back" id="main-nav">
                 <div class="container">
                     <div class="logo">
                         <a class="navbar-brand" href="#portada" id='' >El Duque Real</a>
@@ -50,41 +50,113 @@
         </div>
         <!-- ///////////////////////////////////////////////////PORTADA -->
 
-
-        <section class="portada container mb-5 " id='portada'>
-    <div class="row ">
-        <div class="titulo-container col-md-6">
-            <div class="">
-                <h3>Mayorista de</h3>
-                <h1>Quesos y Embutidos</h1> 
-            </div>
-            <div class="pt-5">
-                <h6>Abiertos de Martes a Sabado de 7:30 - 15:00</h6>
-                <a class="btn btn-outline-primary" href="#contactos">VISÍTENOS</a>
-            </div>
-        </div>
-      <div class="col-md-6" >
-<div class="bienvenidoPortada bg-primary">
-    <h3 class="text-center" >Bienvenido</h3>
-    <p>
-      ¡Todo lo que buscas en un solo lugar.!
-    </p> 
-    <p>
-      Somos una comercializadora de alimentos al Mayor, ubicada en Caracas, Catia.
-      Aqui podras encontrar informacion sobre nuestros productos y servicios.
-    </p>
-    <p>
-      Si deseas más información, no dudes en escribirnos.
-    </p>
-</div>
-     </div>
-  </div>
-    
-</section>
-
+        
 <div id="fondo-portada">
+  
+  <section class="portada container mb-5 " id='portada'>
     
+    <div class="row py-md-5 titulo-text">
+      <div class="titulo-container col-md-6">
+        <div class="">
+          <h3>Mayorista de</h3>
+          <h1>Quesos y Embutidos</h1> 
+        </div>
+        <div class="pt-5">
+          <h6>Abiertos de Martes a Sabado de 7:30 - 15:00</h6>
+          <a class="btn btn-outline-primary" href="#contactos">VISÍTENOS</a>
+        </div>
+      </div>
+      <div class="col-md-6" >
+        <div class="bienvenidoPortada d-none d-sm-block">
+          <h3 class="text-center" >Bienvenido</h3>
+          <p>
+            ¡Todo lo que buscas en un solo lugar.!
+          </p> 
+          <p>
+            Somos una comercializadora de alimentos al Mayor, ubicada en Caracas, Catia.
+            Aqui podras encontrar informacion sobre nuestros productos y servicios.
+          </p>
+          <p>
+            Si deseas más información, no dudes en escribirnos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<div class="container-fluid mt-0 pb-5 bg-dark text-white d-none d-sm-block">
+  <div class="row d-flex justify-content-around text-center pt-5">
+    <div class="feature-box col-lg-3">
+      <i class="icon fas fa-check-circle fa-4x"></i>
+      <h3 class="feature-title">Marcas Nacionales</h3>
+      <!-- <p>Trabajamos con los lideres nacionales en charcuteria</p> -->
+    </div>
+
+    <div class="feature-box col-lg-3">
+      <i class="icon fas fa-star fa-4x"></i>
+      <h3 class="feature-title">Calidad Garantizada</h3>
+      <!-- <p>Extrictamente controlados desde nuestros provedores</p> -->
+    </div>
+
+    <div class="feature-box col-lg-3">
+      <i class="icon fas fa-tachometer-alt fa-4x"></i>
+      <h3 class="feature-title">Rapido Atendimiento</h3>
+      <!-- <p>Porque valorizamos tu tiempo, </p> -->
+    </div>
   </div>
+</div>
+  
+<section class="servicios" id='servicios'>
+  <div class="titulo container">
+    <h1>Servicios</h1>
+  <h4>La satisfaccion de nuestros clientes es la clave de nuestro exito</h4> 
+  <hr>
+  <div class="row pt-md-5">
+    <div class="col-md-6 h-line ">
+      <div>
+        <p>Atraves de los anos nuestra cartera de clientes ha crecido en tamano y diversidad. Nos
+      hemos convertido en  punto de parada para medianas y pequenas charcuterias, bodegueros, perros calenteros, hamburgueserias, pizzeria, restaurantes, 
+      panaderias, organizadores de eventos y particulares.
+      </p>
+      </div>
+      <div class="text-center shake">
+        <img src="./styles/img/shake.png" alt="" class="">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <ul class="check">
+        <li>
+          <p>
+            <b class="text-success">&checkmark;</b>  No encuentra el producto que desea! Podemos ser ese puente entre usted y el fabricante.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b class="text-success">&checkmark;</b> No tiene la maquinaria necesaria! Rebanamos sus productos a su gusto.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b class="text-success">&checkmark;</b> No sabe que comprar! Lo orientamos con nuestros +15 anos de experiencia.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b class="text-success">&checkmark;</b> Tambien hacemos presupuestos.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  </div>
+</section>
 
 
 <!-- ///////////////////////////////////////////////////BIENVENIDO -->
@@ -93,46 +165,57 @@
       
       <h1>Oportunidades</h1>
       <h4>Mas de 15 anos brindandole los mejores productos a los mejores precios</h4> 
-
-      <div class="row pt-md-5">
+      <hr>
+      <div class="row d-flex justify-content-around text-center pt-md-5">
         
-        <div class="col-md-4">
+        
+          
+            <div class="col-md-5 my-auto">          
+              <p class="lead">Mantente al dia con nuestras mas recientes promociones</p>
+              <span><i class="icon fab fa-twitter fa-4x"></i></span>
+              <p class="lead">Siguenos en twitter</p>
+              <p class="pt-md-5">Dale click a la 
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34"><path fill-rule="evenodd" d="M12 1C8.318 1 5 3.565 5 7v4.539a3.25 3.25 0 01-.546 1.803l-2.2 3.299A1.518 1.518 0 003.519 19H8.5a3.5 3.5 0 107 0h4.982a1.518 1.518 0 001.263-2.36l-2.2-3.298A3.25 3.25 0 0119 11.539V7c0-3.435-3.319-6-7-6zM6.5 7c0-2.364 2.383-4.5 5.5-4.5s5.5 2.136 5.5 4.5v4.539c0 .938.278 1.854.798 2.635l2.199 3.299a.017.017 0 01.003.01l-.001.006-.004.006-.006.004-.007.001H3.518l-.007-.001-.006-.004-.004-.006-.001-.007.003-.01 2.2-3.298a4.75 4.75 0 00.797-2.635V7zM14 19h-4a2 2 0 104 0z"></path></svg>
+              <!-- <ion-icon name="notifications-outline" size="large"></ion-icon>   -->
+              para recibir nuestras notificaciones
+              </p>
+            </div>
+          <div class="col-md-4">
           <p><a class="twitter-timeline" data-width="350" data-height="450" data-theme="dark" href="https://twitter.com/LuisRodrigues0?ref_src=twsrc%5Etfw">Tweets by LuisRodrigues0</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-          <p class="lead">Siguenos en twitter para mas promociones</p>
         </div>
-        <div class="col-md-8"> 
-          <p>Lideres en la comercializacion de</p>
-          <div class="card-group">
+        <!-- <div class="hrdiv mt-md-5 col-md-12"></div> -->
+        <div class="col-md-12 pt-md-5"> 
+          <p class="lead pb-md-4 text-md-left font-italic">
+            Lideres en la comercializacion de...
+          </p>
+          
+          <div class="card-deck ">
             <div class="card">
-              <img class="card-img-top" src="/styles/img/imgpuntadelmonte.jpg" alt="Card image cap">
+              <img class="card-img-top img3" src="/styles/img/Salchichadetallada.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Mortadela de Pollo</h5>
-                <p class="card-text">This is a wider card with supporting text </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title">Salchichas</h5>
+                <p class="card-text">Salchicha granel Del'Duque, la preferida de nuestros clientes...</p>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="/styles/img/imgpuntadelmonte.jpg" alt="Card image cap">
+              <img class="card-img-top img3" src="/styles/img/Mortadela-de-Frango-600x350px.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural .</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title">Mortadelas</h5>
+                <p class="card-text">La popular de pollo del Corral y la reina Giacomello...</p>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="/styles/img/imgpuntadelmonte.jpg" alt="Card image cap">
+              <img class="card-img-top img3" src="/styles/img/jamonrebanadas.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title">Jamones</h5>
+                <p class="card-text">Fiambre, Espalda, Pierna, siempre en la lista...</p>
               </div>
             </div>
           </div>
-          <p>Demanda mas paga menos!</p> 
+
+          <p class="lead pt-md-4 text-md-right font-italic">Demanda mas paga menos!</p> 
         </div>
-        <div class="col-md-12">
-          
-        </div>
+        
 
     </div>
 </div>
@@ -142,75 +225,50 @@
 <section class="productos" id='productos'>
     <div class="titulo container">
       <h1>Productos</h1>
-    <h4>Desde lo mas popular a lo mas exclusivo</h4> 
+    <h5>Desde lo mas popular a lo mas exclusivo</h5> 
+    <hr>
     
     
-      <div class="row">
-    <div class="box1 col-md-8">
-        <p>Contamos con una amplia lista de provedores</p>
-        <div class="row text-center">
+      <div class="row p-md-5">
+    <div class="box1 col-md-8 pt-md-3">
+  
+        <div class="row text-center h-100">
 
           <div class="col"><img src="./styles/img/alimex.png" alt=""></div>
           <div class="col"><img src="./styles/img/hermo.png" alt=""></div>
           <div class="col"><img src="./styles/img/paisa.png" alt=""></div>
-          <div class="col"><img src="./styles/img/Plumrose-Favicon.png" alt=""></div>
+          <div class="col"><img src="./styles/img/plumroselast.png" alt=""></div>
           <div class="col"><img src="./styles/img/milleniumm.png" alt=""></div>
           <div class="col"><img src="./styles/img/torondoy.jpg" alt=""></div>
           <div class="col"><img src="./styles/img/giacomello.jpg" alt=""></div>
           <div class="col"><img src="./styles/img/delcorral.png" alt=""></div>
           <div class="col"><img src="./styles/img/purolomo.png" alt=""></div>
+          <div class="col"><img src="./styles/img/movilla.png" alt=""></div>
+          <div class="col"><img src="./styles/img/charvenca.svg" alt=""></div>
+          <div class="col"><img src="./styles/img/friocarnes.png" alt=""></div>
+          <div class="col"><img src="./styles/img/castelo.png" alt=""></div>
+          <div class="col"><img src="./styles/img/dondiego.png" alt=""></div>
+          <div class="col"><img src="./styles/img/fiesta.png" alt=""></div>
+
         </div>
     </div>
-    <div class="box2 col-md-4">
+    <div class="box2 col-md-4 pt-3">
         <p>Trabajamos con los lideres nacionales en charcuteria asi como nuevas marcas con excelentes productos</p>
-        <p>No te quedes atras de la competencia</p>
         <p>Si no lo tenemos te lo conseguimos, mas de un centenar de productos a disposición del cliente y un trato especializado para ayudarle a escoger el más adecuado segun sus necesidades</p>
-        <p>Si deseas más información de los productos que ofrecemos, no dudes en escribirnos.</p>
-        
+        <!-- <p>Si deseas más información de los productos que ofrecemos, no dudes en escribirnos.</p> -->
     </div>
   </div>
 
-    <div class="row d-flex justify-content-around text-center pt-5">
-      <div class="feature-box col-lg-3">
-        <i class="icon fas fa-check-circle fa-4x"></i>
-        <h3 class="feature-title">Marcas Nacionales</h3>
-        <p>Trabajamos con los lideres nacionales en charcuteria</p>
-      </div>
-
-      <div class="feature-box col-lg-3">
-        <i class="icon fas fa-star fa-4x"></i>
-        <h3 class="feature-title">Calidad Garantizada</h3>
-        <p>Extrictamente controlados desde nuestros provedores</p>
-      </div>
-
-      <div class="feature-box col-lg-3">
-        <i class="icon fas fa-tachometer-alt fa-4x"></i>
-        <h3 class="feature-title">Rapido Atendimiento</h3>
-        <p>Porque valorizamos tu tiempo, </p>
-      </div>
-    </div>
+    
 
     </div>
 </section>
+
+
     <!-- ///////////////////////////////////////////////////SERVICIOS -->
 
-<section class="servicios" id='servicios'>
-    <div class="titulo container">
-      <h1>Servicios</h1>
-    <h4>La satisfaccion de nuestros clientes es la clave de nuestro exito</h4> 
-    <p>Atraves de los anos nuestra cartera de clientes ha crecido en tamano y diversidad. Nos
-      hemos convertido en  punto de parada para medianas y pequenas charcuterias, bodegueros, perros calenteros, hamburgueserias, pizzeria, restaurantes, 
-      panaderias, organizadores de eventos.
-    </p>
 
-    <p>Rebanamos sus embutisos</p>
-    <p>Predorden</p>
-    <p>Presupuestos en divisas</p>
-    
-    
-    </div>
-</section>
-<!-- ///////////////////////////////////////////////////CONTACTOS -->
+<!-- /////////////////////////////////////////////////CONTACT -->
 <section class="contactos" id='contactos'>
     <div class="titulo container">
       <div class="row align-items-baseline pb-md-4">
@@ -218,7 +276,7 @@
           <h1>Contactos</h1>
         </div>
         <div class="col text-right">
-          <p>Consulta nuestra seccion de preguntas frecuentes</p>
+          <p>Consulta nuestra seccion de preguntas frecuentes <i class="fas fa-question fa-2x"></i></p>
         </div>
       </div>
       
@@ -226,7 +284,6 @@
     
     
 </div>
-<!-- CONTACT SECTION -->
 <section id="contact" class="">
   <div class="container">
     <div class="row">
@@ -322,7 +379,7 @@
   </div>
 </section>
 
-<div class="pt-2">
+<div class="pt-2 pb-3">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.7234271477291!2d-66.94654527080759!3d10.509037499531471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5f106ce9899f%3A0x1e3bf187c1f9c979!2sEl%20Duque%20Real!5e0!3m2!1sen!2suk!4v1604692978616!5m2!1sen!2suk" 
   width="100%" 
   height="300" 
@@ -333,18 +390,119 @@
   tabindex="0">
     </iframe> 
 </div>
-
 </section>
 
+<div class="container-fluid bg-light">
+  <div class="container ">
+    <h3 class="text-center p-md-3">Preguntas mas frecuentes</h3>
+    <div class="row pb-md-5">
+      <div class="col">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-block btn-outline-primary text-center p-2" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Puedo hacer pedido online?
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Despues de haber hecho el registro en nuestra tienda tendra acceso a una linea directa atraves de la cual podra hacer sus pedidos via texto.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-block btn-outline-primary text-center p-2" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Hay un pedido minimo?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Nos especializamos en la venta al mayor. Productos de un kilo podran tener un minimo de 6 unidades o lo equivalente a media caja. Los maximos dependeran del inventario disponible pero, si requerido podemos preordenar a nuestros provedores la cantidad que busca.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-block btn-outline-primary text-center p-2" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Como pago?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Puede pagar con tarjeta de debito o efectivo directamente en nuestra tienda. Tambien podra transferir a nuestras cuentas bancarias. Si opta por la transferencia tendra que hacerlo con antelacion para poder retirar la mercancia cuando se dirija a la tienda. 
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col">
+        <div class="accordion" id="accordionExample2">
+          <div class="card">
+            <div class="" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-block btn-outline-primary text-center p-2" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapsefour">
+                  Hacen despachos?
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseFour" class="collapse " aria-labelledby="headingFour" data-parent="#accordionExample2">
+              <div class="card-body">
+               No pero, usted tiene la posibilidad de contratar a terceros para recoger su mercancia en nuestra tienda. 
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-block btn-outline-primary text-center p-2" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Que dias trabajan?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample2">
+              <div class="card-body">
+                Trabajamos de martes a sabado entre 7:30 - 15:00 pero debido al coronavirus podriamos estar condicionados a reducir nuestras horas laborales. 
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="" id="headingSix">
+              <h2 class="mb-0">
+                <button class="btn btn-block btn-outline-primary text-center p-2" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Donde estacionar?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample2">
+              <div class="card-body">
+                El alto flujo de cargas y descargas de la calle le permitira encontrar puesto en cualquier momento del dia. Los dias de menor movimiento son los martes y jueves.
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
 <!-- ///////////////////////////////////////////////////FOOTER -->
-<footer id="main-footer" class="text-center p-4">
+<footer id="main-footer" class="text-center p-4 back">
     <div class="container">
       <div class="row">
         <div class="col">
           <a
             id="back-to-top"
             href="#"
-            class="btn btn-primary back-to-top"
+            class="btn btn-primary back-to-top d-md-none "
             role="button"
             ><i class="fas fa-arrow-alt-circle-up fa-2x "></i></a>
           <p>Copyright &copy; 2008-<span id="year"></span> Inversiones El Duque Real, C.A.  J-29675618-0</p>
@@ -364,6 +522,8 @@
         crossorigin="anonymous"></script>
         <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
