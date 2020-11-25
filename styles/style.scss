@@ -35,13 +35,10 @@ ul {
   padding-top: 6rem;
 }
 
-.img-portada {
-  max-height: 500px;
-}
 .portada {
-  padding-top: 7rem;
-  min-height: 71vh;
-  color: black;
+  padding-top: 6rem;
+  // min-height: 71vh;
+  // color: black;
 }
 .bienvenidoPortada {
   color: white;
@@ -57,21 +54,45 @@ ul {
 
 #fondo-portada {
   height: 75vh;
-  // background: url("../styles/img/JAMONES\ CENTRO.jpg") center/cover;
   background: url("../styles/img/portadaprueba.jpg") center/cover;
-  // background-size: cover;
+  background-size: cover;
   // background-position: botton;
   background-attachment: fixed;
   opacity: 1;
   color: black;
   padding-top: 50px;
-  // filter: blur(2px);
-  // backdrop-filter: saturate(100%) blur(100px);
+}
+@media screen and (max-width: 768px) {
+  #fondo-portada {
+    // height: 100vh;
+    height: 720px;
+    background: url("../styles/img/portadaprueba.jpg") center/cover;
+    background-size: cover;
+    // background-position: botton;
+    background-attachment: fixed;
+    opacity: 1;
+    color: black;
+    padding-top: 50px;
+  }
+  .portada {
+    padding-top: 1.5rem;
+  }
+  .bienvenidoPortada {
+    padding: 15px 0px;
+    text-align: center;
+  }
+  .titulo-container {
+    text-align: center;
+  }
+  .titulo {
+    padding-top: 3.2rem;
+  }
 }
 .titulo-text {
   background-color: rgba(3, 6, 26, 0.664);
   color: white;
 }
+
 //////////////////////////////////////////////////////////////PRODUCTOS
 .productos {
   // min-height: 100vh;

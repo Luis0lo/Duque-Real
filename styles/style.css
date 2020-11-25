@@ -29,14 +29,8 @@ ul {
   padding-top: 6rem;
 }
 
-.img-portada {
-  max-height: 500px;
-}
-
 .portada {
-  padding-top: 7rem;
-  min-height: 71vh;
-  color: black;
+  padding-top: 6rem;
 }
 
 .bienvenidoPortada {
@@ -47,10 +41,36 @@ ul {
 #fondo-portada {
   height: 75vh;
   background: url("../styles/img/portadaprueba.jpg") center/cover;
+  background-size: cover;
   background-attachment: fixed;
   opacity: 1;
   color: black;
   padding-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  #fondo-portada {
+    height: 720px;
+    background: url("../styles/img/portadaprueba.jpg") center/cover;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+    color: black;
+    padding-top: 50px;
+  }
+  .portada {
+    padding-top: 1.5rem;
+  }
+  .bienvenidoPortada {
+    padding: 15px 0px;
+    text-align: center;
+  }
+  .titulo-container {
+    text-align: center;
+  }
+  .titulo {
+    padding-top: 3.2rem;
+  }
 }
 
 .titulo-text {
