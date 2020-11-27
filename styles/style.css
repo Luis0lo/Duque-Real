@@ -42,7 +42,6 @@ ul {
   height: 600px;
   background: url("../styles/img/portadaprueba.jpg") center/cover;
   background-size: cover;
-  background-attachment: fixed;
   opacity: 1;
   color: black;
   padding-top: 50px;
