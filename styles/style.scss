@@ -5,6 +5,7 @@
 }
 body {
   font-family: sans-serif;
+  // 'Crimson Text', serif;
   // font-family: "Montserrat", sans-serif;
   // font-size: 62.5%; // 1rem = 10px
 }
@@ -66,13 +67,6 @@ ul {
   #fondo-portada {
     // height: 100vh;
     height: 720px;
-    background: url("../styles/img/portadaprueba.jpg") center/cover;
-    background-size: cover;
-    // background-position: botton;
-    background-attachment: fixed;
-    opacity: 1;
-    color: black;
-    padding-top: 50px;
   }
   .portada {
     padding-top: 1.5rem;

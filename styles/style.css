@@ -51,12 +51,6 @@ ul {
 @media screen and (max-width: 768px) {
   #fondo-portada {
     height: 720px;
-    background: url("../styles/img/portadaprueba.jpg") center/cover;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 1;
-    color: black;
-    padding-top: 50px;
   }
   .portada {
     padding-top: 1.5rem;
