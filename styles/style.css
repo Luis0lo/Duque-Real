@@ -39,7 +39,7 @@ ul {
 }
 
 #fondo-portada {
-  height: 75vh;
+  height: 600px;
   background: url("../styles/img/portadaprueba.jpg") center/cover;
   background-size: cover;
   background-attachment: fixed;
