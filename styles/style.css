@@ -54,17 +54,18 @@ ul {
 
 @media screen and (max-width: 768px) {
   #fondo-portada {
-    height: 720px;
+    height: 100vh;
   }
   .portada {
-    padding-top: 4rem;
+    padding-top: 3.5rem;
   }
   .bienvenidoPortada {
-    padding: 15px 0px;
+    padding: 15px 0px 0px 0px;
     text-align: center;
   }
   .titulo-container {
     text-align: center;
+    padding-top: 1rem;
   }
   .titulo {
     padding-top: 3.2rem;
