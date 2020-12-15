@@ -70,8 +70,8 @@ ul {
 
 @media screen and (max-width: 768px) {
   #fondo-portada {
-    height: 100vh;
-    // height: 680px;
+    // height: 100vh;
+    height: 720px;
   }
   .portada {
     padding-top: 3.5rem;
@@ -172,5 +172,8 @@ b {
   color: aqua;
 }
 .social-icon:hover {
+  color: white;
+}
+.copyright {
   color: white;
 }
