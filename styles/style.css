@@ -4,8 +4,10 @@ body {
 }
 
 .navbar li:hover {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: yellow !important;
+  background-color: #4E27C7;
+  border-radius: 15%;
 }
 
 h1 {
