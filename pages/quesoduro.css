@@ -13,6 +13,9 @@ body {
   h1 {
     font-size: 3rem;
   }
+  h2{
+    font-size: 1.4rem;
+  }
   
   p {
     font-size: 1rem;
@@ -146,6 +149,7 @@ body {
   
   .shake img {
     max-height: 300px;
+    max-width: 200px;
   }
   
   .social-icon {
@@ -163,4 +167,8 @@ body {
 
   .blog-post{
     margin-top: 10px;
+  }
+  .ideal{
+    color: blue;
+    font-weight: 600;
   }
