@@ -145,6 +145,7 @@ b {
 
 .shake img {
   max-height: 200px;
+  max-width: 200px;
 }
 
 .social-icon {
@@ -159,3 +160,8 @@ b {
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
+
+.card-img-top{
+  min-width: 100px;
+  min-height: 100px;
+}
